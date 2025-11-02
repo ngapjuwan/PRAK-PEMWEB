@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Juan</title>
+    <link rel="stylesheet" href="css ta 1 .css">
+</head>
+<body>
+
+<div class="wrap">
+
+    <header>
+        <div class="brand">
+            <div class="logo">J</div>
+            <div>
+                <h1>Juan</h1>
+                <p class="lead">Pemula</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <section class="hero">
+            <div class="intro">
+                <div class="avatar">J</div>
+                <div class="about">
+                    <h2>Juan Kamallunniam K.A</h2>
+                    <p>Praktikan pemweb.</p>
+                    <div class="cta">
+                        <button class="btn">Download CV</button>
+                        <button class="btn alt">Hubungi Saya</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="proyek" class="projects">
+                <div class="card">
+                    <h3>Website Portofolio</h3>
+                    <p>Website portofolio simpel sebagai tempat memperkenalkan diri.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Desain UI Dasar</h3>
+                    <p>Belajar membuat tampilan antarmuka aplikasi modern.</p>
+                    <div class="tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside>
+            <div id="tentang" class="panel skills">
+                <h3>Keahlian</h3>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="bar"><i style="width:40%"></i></div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="bar"><i style="width:55%"></i></div>
+                </div>
+                <div class="skill">
+                    <span>UI Design</span>
+                    <div class="bar"><i style="width:40%"></i></div>
+                </div>
+            </div>
+
+            <div id="kontak" class="panel contact">
+                <a href="#">Email: 2315061068@student.unila.ac.id</a>
+                <a href="#">Instagram: @juankamall</a>
+                <a href="#">WhatsApp: 088276273470</a>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        © 2025 Juan..
+    </footer>
+
+</div>
+
+</body>
+</html>
